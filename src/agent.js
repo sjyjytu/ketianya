@@ -6,10 +6,6 @@ function resBody(res) {
     return res.body;
 }
 
-function handleErr(err) {
-    alert(err.message);
-}
-
 const request = {
     get: url=>superagent.get(RootUrl+url).then(resBody),
     post:(url,body)=>superagent.post(RootUrl+url).send(body).then(resBody)
