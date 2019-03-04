@@ -42,7 +42,7 @@ function Footer(props) {
                     </Typography>
                     <Button color="inherit" className={classes.button} href="#">
                         <Home className={classes.buttonIcon}/>
-                        Home
+                        主页
                     </Button>
                     {userId!==""?
                         <Button color="inherit" className={classes.button} href="#/write-article">
