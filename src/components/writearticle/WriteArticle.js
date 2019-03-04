@@ -96,7 +96,7 @@ class WriteArticle extends React.Component{
                                 <Photo />
                             </IconButton>
                             <Button type="submit" variant="contained" size="medium" color="primary" className={this.props.classes.submitButton}>
-                                Submit
+                                发布
                             </Button>
                         </form>
                     </Paper>

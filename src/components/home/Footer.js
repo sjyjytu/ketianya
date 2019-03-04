@@ -52,12 +52,12 @@ function Footer(props) {
                         :
                         <Button color="inherit" className={classes.button} href="#/login">
                             <AccountCircle className={classes.buttonIcon}/>
-                            Sign in
+                            登录
                         </Button>
                     }
                     <Button color="inherit" className={classes.button} href="#/signup">
                         <AccountCircle className={classes.buttonIcon}/>
-                        Sign up
+                        注册
                     </Button>
                 </Toolbar>
             </AppBar>
